@@ -1,3 +1,76 @@
+/*
+pink: ##C25EB6
+dark: #6A6788
+purple: ##9C98CE
+light: #D5D2E5
+
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto Slab', serif;
+*/
+
 body{
-    background-color: blueviolet;
+   
+}
+/*Navbar*/
+.navbar{
+    padding: 0 0 4.5rem 0;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/*Title*/
+#title{
+    color: #D5D2E5;
+    background-color: #9C98CE;
+    text-align: center;
+    padding-bottom: 9%;
+}
+
+.title-text{
+    font-family: 'Pacifico', cursive;
+    font-size: 4.3rem;
+    text-align: center;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding-top: 2%;
+    text-align: center;
+}
+/*About*/
+#about{
+    background-color: #D5D2E5;
+    color: #6A6788;
+    padding: 6% 15%;
+}
+.profile-image{
+    width:30%;
+    border-radius: 100%;
+}
+.image-col{
+    text-align: center;
+}
+.about-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 4.3rem;
+    padding-bottom: 0;
+    margin:0;
+}
+.subheading{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding-top: 0;
 }
