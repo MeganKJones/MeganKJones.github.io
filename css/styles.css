@@ -7,13 +7,13 @@ light: #D5D2E5
 font-family: 'Pacifico', cursive;
 font-family: 'Roboto Slab', serif;
 */
-
-body{
-   
+a{
+    text-decoration: none;
 }
+
 /*Navbar*/
 .navbar{
-    padding: 0 0 4.5rem 0;
+    padding: 0 0 3.5rem 0;
     
 }
 .nav-item{
@@ -23,11 +23,18 @@ body{
     font-size: 1.2rem;
     font-weight: 300;
 }
+.nav-item a:hover{
+    color: #C25EB6 !important;
+}
+.nav-link:hover{
+    color: #C25EB6 !important;
+}
 
 .navbar-brand{
     font-family: 'Roboto Slab', serif;
     font-size: 2rem;
     font-weight: 400;
+    color: #D5D2E5 !important;
 }
 
 /*Title*/
@@ -35,7 +42,10 @@ body{
     color: #D5D2E5;
     background-color: #9C98CE;
     text-align: center;
-    padding-bottom: 9%;
+}
+.title-image{
+    width:15%;
+    padding-bottom: 3%
 }
 
 .title-text{
@@ -49,15 +59,28 @@ h3{
     padding-top: 2%;
     text-align: center;
 }
+/*back to top button*/
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  .btn-light{
+      background-color: #6A6788 !important;
+  }
 /*About*/
 #about{
     background-color: #D5D2E5;
     color: #6A6788;
-    padding: 6% 15%;
+    padding: 3% 15% 6% 15%;
 }
 .profile-image{
-    width:30%;
+    width: 68%;
     border-radius: 100%;
+    margin-top: 25%;
+    margin-left: 10%;
+    border: solid 5px ;
 }
 .image-col{
     text-align: center;
@@ -72,5 +95,53 @@ h3{
 .subheading{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    padding-top: 0;
+    padding: 0 0 4% 0;
+}
+.about-text{
+    font-family: 'Roboto Slab', serif;
+}
+/*Contact*/
+#contact{
+    color: #D5D2E5;
+    background-color: #9C98CE;
+    padding: 4% 15% 0.5% 15%;
+    font-family: 'Roboto Slab', serif;
+}
+.contact-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 4.3rem;
+    padding-bottom: 0;
+    margin:0;
+}
+.right-align{
+    text-align: right;
+}
+.feature-icon{
+    color: #6A6788;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #C25EB6;
+}
+h4{
+    color: #D5D2E5;
+}
+.feature-box{
+   text-align: center;
+   padding: 10% 0 0 0;
+}
+.copyright{
+    padding: 16% 0 0 0;
+    text-align: center;
+}
+
+/*Media*/
+@media (max-width: 1028px) {
+    .profile-image{
+        width: 68%;
+        border-radius: 100%;
+        border: solid 5px ;
+        margin: 2%;
+    }
 }
