@@ -44,7 +44,7 @@ a{
     text-align: center;
 }
 .title-image{
-    width:12%;
+    width:15%;
     padding-bottom: 3%
 }
 
@@ -68,7 +68,7 @@ h3{
     display: none;
   }
 .btn-light{
-    background-color: #6A6788 !important;
+      background-color: #6A6788 !important;
 }
 
 /*About*/
