@@ -7,141 +7,143 @@ light: #D5D2E5
 font-family: 'Pacifico', cursive;
 font-family: 'Roboto Slab', serif;
 */
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /*Navbar*/
-.navbar{
-    padding: 0 0 3.5rem 0;
-    
+.navbar {
+  padding: 0 0 3.5rem 0;
 }
-.nav-item{
-    padding: 0 18px;
+.nav-item {
+  padding: 0 18px;
 }
-.nav-link{
-    font-size: 1.2rem;
-    font-weight: 300;
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
 }
-.nav-item a:hover{
-    color: #C25EB6 !important;
+.nav-item a:hover {
+  color: #c25eb6 !important;
 }
-.nav-link:hover{
-    color: #C25EB6 !important;
+.nav-link:hover {
+  color: #c25eb6 !important;
 }
 
-.navbar-brand{
-    font-family: 'Roboto Slab', serif;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #D5D2E5 !important;
+.navbar-brand {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #d5d2e5 !important;
 }
 
 /*Title*/
-#title{
-    color: #D5D2E5;
-    background-color: #9C98CE;
-    text-align: center;
+#title {
+  color: #d5d2e5;
+  background-color: #9c98ce;
+  text-align: center;
 }
-.title-image{
-    width:15%;
-    padding-bottom: 3%
+.title-image {
+  width: 15%;
+  padding-bottom: 3%;
 }
 
-.title-text{
-    font-family: 'Pacifico', cursive;
-    font-size: 4.3rem;
-    text-align: center;
+.title-text {
+  font-family: "Pacifico", cursive;
+  font-size: 4.3rem;
+  text-align: center;
 }
-h3{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-    padding-top: 2%;
-    text-align: center;
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  padding-top: 2%;
+  text-align: center;
 }
+
 /*About*/
-#about{
-    background-color: #D5D2E5;
-    color: #6A6788;
-    padding: 3% 15% 6% 15%;
+#about {
+  background-color: #d5d2e5;
+  color: #6a6788;
+  padding: 3% 15% 6% 15%;
 }
-.profile-image{
-    width: 68%;
-    border-radius: 100%;
-    margin-top: 25%;
-    margin-left: 10%;
-    border: solid 5px ;
+.profile-image {
+  width: 68%;
+  border-radius: 100%;
+  margin-top: 25%;
+  margin-left: 10%;
+  border: solid 5px;
 }
-.image-col{
-    text-align: center;
+.image-col {
+  text-align: center;
 }
-.about-title{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
-    font-size: 4.3rem;
-    padding-bottom: 0;
-    margin:0;
+.about-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 4.3rem;
+  padding-bottom: 0;
+  margin: 0;
 }
-.subheading{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-    padding: 0 0 4% 0;
+.subheading {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  padding: 0 0 4% 0;
 }
-.about-text{
-    font-family: 'Roboto Slab', serif;
+.about-text {
+  font-family: "Roboto Slab", serif;
 }
+
 /*Contact*/
-#contact{
-    color: #D5D2E5;
-    background-color: #9C98CE;
-    padding: 4% 15% 0.5% 15%;
-    font-family: 'Roboto Slab', serif;
+#contact {
+  color: #d5d2e5;
+  background-color: #9c98ce;
+  padding: 4% 15% 0.5% 15%;
+  font-family: "Roboto Slab", serif;
 }
-.contact-title{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
-    font-size: 4.3rem;
-    padding-bottom: 0;
-    margin:0;
+.contact-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 4.3rem;
+  padding-bottom: 0;
+  margin: 0;
 }
-.right-align{
-    text-align: right;
+.right-align {
+  text-align: right;
 }
-.feature-icon{
-    color: #6A6788;
-    margin-bottom: 1rem;
+.feature-icon {
+  color: #6a6788;
+  margin-bottom: 1rem;
 }
-.feature-icon:hover{
-    color: #C25EB6;
+.feature-icon:hover {
+  color: #c25eb6;
 }
-h4{
-    color: #D5D2E5;
+h4 {
+  color: #d5d2e5;
 }
-.feature-box{
-   text-align: center;
-   padding: 10% 0 0 0;
+.feature-box {
+  text-align: center;
+  padding: 10% 0 0 0;
 }
-.copyright{
-    padding: 16% 0 0 0;
-    text-align: center;
+.copyright {
+  padding: 16% 0 0 0;
+  text-align: center;
 }
 
 /*Media*/
 @media (max-width: 1028px) {
-    .profile-image{
-        width: 68%;
-        border-radius: 100%;
-        border: solid 5px ;
-        margin: 2%;
-    }
+  .profile-image {
+    width: 68%;
+    border-radius: 100%;
+    border: solid 5px;
+    margin: 2%;
+  }
 }
+
 /*back to top button*/
 #btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-  }
-.btn-light{
-      background-color: #6A6788 !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.btn-light {
+  background-color: #6a6788 !important;
 }
