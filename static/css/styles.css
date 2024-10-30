@@ -58,7 +58,7 @@ a {
     text-align: center;
 }
 
-h3 {
+.title-subtitle {
     font-family: "Roboto Slab", serif;
     font-weight: 300;
     padding-top: 2%;
@@ -77,18 +77,24 @@ h3 {
 
 
 @keyframes typing {
-  from { width: 1ch; }
-  to { width: 37ch; }
+    from {
+        width: 1ch;
+    }
+    to {
+        width: 37ch;
+    }
 }
 
 @keyframes blink-caret {
-  20% { border-color: transparent; }
+    20% {
+        border-color: transparent;
+    }
 }
 
 /*About*/
 #about {
     background-color: #d5d2e5;
-    color: #6a6788;
+    color: #9c98ce;
     padding: 3% 15% 6% 15%;
 }
 
@@ -122,10 +128,49 @@ h3 {
     font-family: "Roboto Slab", serif;
 }
 
-/*Contact*/
-#contact {
+/*Projects*/
+#projects {
     color: #d5d2e5;
     background-color: #9c98ce;
+    padding: 3% 15% 6% 15%;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.weather-top-img {
+    width: 500px;
+    margin: 5px;
+    text-align: center;
+    border: solid 2px #d5d2e5;
+     border-radius: 8px;
+}
+
+.weather-img {
+    width: 400px;
+    margin: 5px;
+    border: solid 2px #d5d2e5;
+    border-radius: 8px;
+}
+
+.weather-text {
+    font-family: "Roboto Slab", serif;
+}
+.weather-bottom-row {
+        flex-direction: row;
+    }
+
+.project-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/*Contact*/
+#contact {
+    background-color: #d5d2e5;
+    color: #9c98ce;
     padding: 4% 15% 0.5% 15%;
     font-family: "Roboto Slab", serif;
 }
@@ -138,8 +183,8 @@ h3 {
     margin: 0;
 }
 
-.right-align {
-    text-align: right;
+.left-align {
+    text-align: left;
 }
 
 .feature-icon {
@@ -152,7 +197,7 @@ h3 {
 }
 
 h4 {
-    color: #d5d2e5;
+    color: #9c98ce;
 }
 
 .feature-box {
@@ -172,6 +217,10 @@ h4 {
         border-radius: 100%;
         border: solid 5px;
         margin: 2%;
+    }
+    .weather-bottom-row {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
