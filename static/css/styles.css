@@ -63,6 +63,26 @@ h3 {
     font-weight: 300;
     padding-top: 2%;
     text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    height: 62px;
+}
+
+.typing {
+    border-right: 2px solid #d5d2e5; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(30, end), forwards, blink-caret 0.5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 1ch; }
+  to { width: 37ch; }
+}
+
+@keyframes blink-caret {
+  20% { border-color: transparent; }
 }
 
 /*About*/
@@ -73,10 +93,9 @@ h3 {
 }
 
 .profile-image {
-    width: 390px;
-    height: 390px;
+    width: 68%;
     border-radius: 100%;
-    margin-top: 150px;
+    margin-top: 25%;
     margin-left: 10%;
     border: solid 5px;
 }
@@ -149,8 +168,7 @@ h4 {
 /*Media*/
 @media (max-width: 1028px) {
     .profile-image {
-        width: 390px;
-        height: 390px;
+        width: 68%;
         border-radius: 100%;
         border: solid 5px;
         margin: 2%;
